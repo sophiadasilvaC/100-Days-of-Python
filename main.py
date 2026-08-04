@@ -30,10 +30,24 @@ resources = {
     "coffee": 100,
 }
 
+def format_text(cm_resources):
+    """Formats the resources data into a printable format"""
+    cm_resources_water = cm_resources["water"]
+    cm_resources_milk = cm_resources["milk"]
+    cm_resources_coffee = cm_resources["coffee"]
+    temp_money = 0
+    return (f"Water: {cm_resources_water}ml\n "
+            f"Milk: {cm_resources_milk}ml\n "
+            f"Coffee: {cm_resources_coffee}g"
+            f"Money: ${temp_money}")
+
+# TODO: 3. Check if resources are sufficient
+def check_resources():
+    return
+
 
 # TODO: 1. Ask the user what coffee they would like
 def coffee_machine():
-    temp_money = 0
     still_on = True
     while still_on:
         users_drink_choice = input("What would you like? (espresso/latte/cappuccino):").lower()
@@ -42,10 +56,8 @@ def coffee_machine():
             still_on = False
         elif users_drink_choice == "report":
             # need to update money 0 is being used as a temp
-            print(f"Water: {resources['water']}ml\n"
-                  f"Milk: {resources['milk']}ml\n"
-                  f"Coffee: {resources['coffee']}g\n"
-                  f"Money: ${temp_money}")
+            format_text(resources)
+
 
 coffee_machine()
 
