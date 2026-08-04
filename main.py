@@ -1,3 +1,4 @@
+# TODO: 3. Check resources sufficient to make drink order.
 MENU = {
     "espresso": {
         "ingredients": {
@@ -30,5 +31,25 @@ resources = {
     "coffee": 100,
 }
 
-#TODO:
+
+# TODO: 1. Ask the user what coffee they would like
+def coffee_machine():
+    temp_money = 0
+    still_on = True
+    while still_on:
+        users_drink_choice = input("What would you like? (espresso/latte/cappuccino):").lower()
+        # TODO: 2. Print report of all coffee machine resources.
+        if users_drink_choice == "off":
+            sill_on = False
+            return
+        elif users_drink_choice == "report":
+            # need to update money 0 is being used as a temp
+            print(f"Water: {resources['water']}ml\n"
+                  f"Milk: {resources['milk']}ml\n"
+                  f"Coffee: {resources['coffee']}g\n"
+                  f"Money: ${temp_money}")
+
+coffee_machine()
+
+
 
