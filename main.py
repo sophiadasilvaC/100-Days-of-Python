@@ -39,8 +39,7 @@ def coffee_machine():
         users_drink_choice = input("What would you like? (espresso/latte/cappuccino):").lower()
         # TODO: 2. Print report of all coffee machine resources.
         if users_drink_choice == "off":
-            sill_on = False
-            return
+            still_on = False
         elif users_drink_choice == "report":
             # need to update money 0 is being used as a temp
             print(f"Water: {resources['water']}ml\n"

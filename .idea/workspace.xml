@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9fd2743-0cb2-42aa-ba3d-0f7e3cbe54fa" name="Changes" comment="" />
+    <list default="true" id="f9fd2743-0cb2-42aa-ba3d-0f7e3cbe54fa" name="Changes" comment="added the menu and resources to the coffee machine." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sophiadasilvaC"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sophiadasilvaC/100-Days-of-Python.git",
+    "accountId": "910138f3-cd20-4401-959f-afe20458a14e"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -21,10 +38,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,11 +62,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1785803128669</updated>
-      <workItem from="1785803129845" duration="4000" />
+      <workItem from="1785803129845" duration="2496000" />
     </task>
+    <task id="LOCAL-00001" summary="added the menu and resources to the coffee machine.">
+      <option name="closed" value="true" />
+      <created>1785803316595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785803316595</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added the menu and resources to the coffee machine.">
+      <option name="closed" value="true" />
+      <created>1785803379650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1785803379650</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added the menu and resources to the coffee machine.">
+      <option name="closed" value="true" />
+      <created>1785803994407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1785803994407</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added the menu and resources to the coffee machine.">
+      <option name="closed" value="true" />
+      <created>1785804090807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1785804090807</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added the menu and resources to the coffee machine.">
+      <option name="closed" value="true" />
+      <created>1785805504840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1785805504840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added the users drink choice input, and added report and off functionality." />
+    <MESSAGE value="added the menu and resources to the coffee machine." />
+    <option name="LAST_COMMIT_MESSAGE" value="added the menu and resources to the coffee machine." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CoffeeMachine$main.coverage" NAME="main Coverage Results" MODIFIED="1785805367179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
