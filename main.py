@@ -1,4 +1,3 @@
-# TODO: 3. Check resources sufficient to make drink order.
 MENU = {
     "espresso": {
         "ingredients": {
