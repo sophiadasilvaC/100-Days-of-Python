@@ -41,25 +41,53 @@ def format_text(cm_resources):
             f"Coffee: {cm_resources_coffee}g\n"
             f"Money: ${temp_money}")
 
+# TODO: 4. process coins as inputs from the user and calculate the users value
+def coin_process(menu_choice):
+    print("Please insert coins.")
+    quarter = int(input("How many quarters?: ")) * 0.25
+    dime = int(input("How many dimes?: ")) * 0.10
+    nickle = int(input("How many nickles?: ")) * 0.05
+    pennies = int(input("How many pennies?: ")) * 0.01
+
+    user_total = quarter + dime + nickle + pennies
+    rounded_total = round(user_total, 2)
+    print(f"You have ${rounded_total}")
+
+    # TODO: 5. checking if the transaction was successful
+
+
+
+
+
+
+
 # TODO: 3. Check if resources are sufficient
-def check_resources(users_choice, coffee_resources, menu_choice):
+def check_resources(users_choice, cm_resources, menu_choice):
     """Takes in users input and checks if there are enough resources available for the order"""
-    for key in coffee_resources:
+    still_resources = True
+
+    for key in cm_resources:
         if key in menu_choice[users_choice]["ingredients"]:
-            if coffee_resources[key] < menu_choice[users_choice]["ingredients"][key]:
+            if cm_resources[key] < menu_choice[users_choice]["ingredients"][key]:
                 print(f"Sorry there is not enough {key}")
+                still_resources = False
                 break
-            coffee_resources[key] -= menu_choice[users_choice]["ingredients"][key]
+            else:
+                cm_resources[key] -= menu_choice[users_choice]["ingredients"][key]
+                still_resources = True
+
+    return still_resources
 
     # this is for testing purposes to see if the resources are being allocated appropriately
     print(format_text(coffee_resources))
+
 
 
 still_on = True
 
 while still_on:
     # TODO: 1. Ask the user what coffee they would like
-    users_drink = input("What would you like? (espresso/latte/cappuccino):").lower()
+    users_drink = input("What would you like? (espresso/latte/cappuccino): ").lower()
 
     # TODO: 2. Print report of all coffee machine resources, and turn off the machine.
     if users_drink == "off":
@@ -67,15 +95,11 @@ while still_on:
     elif users_drink == "report":
         # need to update money 0 is being used as a temp
         format_text(resources)
-    elif users_drink == "espresso":
-        check_resources(users_drink, resources, MENU)
-    elif users_drink == "latte":
-        check_resources(users_drink, resources, MENU)
-    elif users_drink == "cappuccino":
-        check_resources(users_drink, resources, MENU)
+    elif users_drink == "espresso" or users_drink == "latte" or users_drink == "cappuccino":
+        # check_resources(users_drink, resources, MENU)
+        coin_process(MENU)
+    else:
         print("Please enter either 'off' or 'report'.")
-
-
 
 
 
