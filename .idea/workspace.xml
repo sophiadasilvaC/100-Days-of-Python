@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9fd2743-0cb2-42aa-ba3d-0f7e3cbe54fa" name="Changes" comment="added the menu and resources to the coffee machine." />
+    <list default="true" id="f9fd2743-0cb2-42aa-ba3d-0f7e3cbe54fa" name="Changes" comment="Added a functionality to coin processor and also fixed up the format_text.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,39 +18,39 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sophiadasilvaC"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sophiadasilvaC&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sophiadasilvaC/100-Days-of-Python.git",
-    "accountId": "910138f3-cd20-4401-959f-afe20458a14e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sophiadasilvaC/100-Days-of-Python.git&quot;,
+    &quot;accountId&quot;: &quot;910138f3-cd20-4401-959f-afe20458a14e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3HQbEaNY1KVBEFlLDqCsrYiySgP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -62,7 +65,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1785803128669</updated>
-      <workItem from="1785803129845" duration="2496000" />
+      <workItem from="1785803129845" duration="13646000" />
+      <workItem from="1785888501386" duration="592000" />
+      <workItem from="1786033601823" duration="2283000" />
     </task>
     <task id="LOCAL-00001" summary="added the menu and resources to the coffee machine.">
       <option name="closed" value="true" />
@@ -104,7 +109,47 @@
       <option name="project" value="LOCAL" />
       <updated>1785805504840</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed still_on">
+      <option name="closed" value="true" />
+      <created>1785805841803</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1785805841803</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added check_resources and format_text for printable text.">
+      <option name="closed" value="true" />
+      <created>1785806480218</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1785806480218</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added functionality to check_resources so now it will grab each key of the ingredients and see if it's there.">
+      <option name="closed" value="true" />
+      <created>1785811095916</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1785811095916</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added a coin processor to see how many coins the user inputs and calculates its total.">
+      <option name="closed" value="true" />
+      <created>1785813287374</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1785813287374</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added a functionality to coin processor and also fixed up the format_text.">
+      <option name="closed" value="true" />
+      <created>1785816432407</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1785816432407</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,9 +158,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added the users drink choice input, and added report and off functionality." />
     <MESSAGE value="added the menu and resources to the coffee machine." />
-    <option name="LAST_COMMIT_MESSAGE" value="added the menu and resources to the coffee machine." />
+    <MESSAGE value="fixed still_on" />
+    <MESSAGE value="added check_resources and format_text for printable text." />
+    <MESSAGE value="added functionality to check_resources so now it will grab each key of the ingredients and see if it's there." />
+    <MESSAGE value="Added a coin processor to see how many coins the user inputs and calculates its total." />
+    <MESSAGE value="Added a functionality to coin processor and also fixed up the format_text." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a functionality to coin processor and also fixed up the format_text." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CoffeeMachine$main.coverage" NAME="main Coverage Results" MODIFIED="1785805367179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CoffeeMachine$main.coverage" NAME="main Coverage Results" MODIFIED="1786035798606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
