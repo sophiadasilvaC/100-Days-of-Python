@@ -5,10 +5,12 @@ import turtle as t
 
 tim = t.Turtle()
 
-# if not bundled with python standard libray then you need to install it
-# the pacakge will get store in venv
-import heroes
-print(heroes.gen())
+
+for _ in range(15):
+    tim.forward(10)
+    tim.penup()
+    tim.forward(10)
+    tim.pendown()
 
 
 
