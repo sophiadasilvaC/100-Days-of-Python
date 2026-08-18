@@ -7,6 +7,7 @@ import random
 
 tim = t.Turtle()
 
+
 turtle.colormode(255)
 
 def random_color():
