@@ -1,16 +1,14 @@
-from turtle import Turtle, Screen
+# from turtle import * - this imports everything, but it's better to import the specified thing from the module
+# if its being used more than 3 times, if used once or twice import whole module
+# from turtle import Turtle
+import turtle as t
 
-tim = Turtle()
-# timmy_the_turtle.shape("turtle")
-# timmy_the_turtle.color("red")
+tim = t.Turtle()
 
-for _ in range(4):
-    tim.forward(100)
-    tim.right(90)
-
-
-
-
+# if not bundled with python standard libray then you need to install it
+# the pacakge will get store in venv
+import heroes
+print(heroes.gen())
 
 
 
@@ -20,5 +18,15 @@ for _ in range(4):
 
 
 
-screen = Screen()
+
+
+
+
+
+
+
+
+
+
+screen = t.Screen()
 screen.exitonclick()
